@@ -23,7 +23,6 @@ img {
     display: inline-block;
 }
 
-
 /* HEADER */
 header {
     height: 550px;
@@ -96,8 +95,9 @@ nav {
 .menu .button {
     padding: 10px 20px;
 }
-/* FINE NAV */
+/* End Nav */
 
+/* Intestazione */
 .heading {
     position: absolute;
     bottom: 130px;
@@ -120,6 +120,68 @@ nav {
 /* END HEADER */
 
 /* MAIN */
+
+/* Main top bar */
+
+main .container {
+    padding: 25px;
+    text-align: center;
+}
+
+.bg-main {
+    background-color: lightgrey;
+}
+
+.container h3 {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.container p {
+    color: gray;
+    margin-bottom: 20px;
+}
+/*End Main top bar */
+
+/* Section I */
+.col-left {
+    width: 33%;
+}
+
+.col-center {
+    width: 33%;
+}
+
+.col-img {
+    height: 200px;
+}
+
+.img-object-fit {
+    object-fit: contain;
+    height: 100%;
+    margin: 45px 0;
+}
+
+.sec-top h2 {
+    color: yellowgreen;
+    text-align: center;
+    padding: 35px 155px;
+}
+
+.sec-top p {
+    color: grey;
+    text-align: center;
+    padding: 30px 155px;
+}
+/* End Section I */
+
+hr {
+    color: gray;
+}
+
+/* Section II */
+/* End Section II */
+
 /* END MAIN */
 
 /* FOOTER */
