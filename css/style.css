@@ -16,6 +16,14 @@ img {
     display: block;
 }
 
+.button{
+    background-color: yellowgreen;
+    border-radius: 5px;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+
 /* HEADER */
 header {
     height: 550px;
@@ -24,10 +32,10 @@ header {
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: 110% 110%;
+    position: relative;
 }
 
 /* Nav */
-
 .clearfix::after {
     content: "";
     display: table;
@@ -68,21 +76,47 @@ nav {
 
 .menu li {
     display: inline-block;
+    margin-top: 10px;
 }
 
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    font-size: 10px;
+    font-size: 11px;
     margin-left: 20px;
 }
 
 .menu .login {
     border: 1px solid white;
     border-radius: 5px;
+    padding: 10px 20px;
 }
 
+.menu .button {
+    padding: 10px 20px;
+}
+/* FINE NAV */
+
+.heading {
+    position: absolute;
+    bottom: 130px;
+    left: 450px;
+    width: 641px;
+}
+
+.heading h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.heading a {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 25px 0;
+}
 /* END HEADER */
 
 /* MAIN */
