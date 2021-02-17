@@ -176,10 +176,46 @@ main .container {
 /* End Section I */
 
 hr {
-    color: gray;
+    color: lightslategray;
 }
 
 /* Section II */
+
+.bot-left {
+    width: 50%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.col-img-bot {
+    height: 550px;
+}
+
+.img-bot {
+    object-fit: contain;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    right: 65%;
+    padding: 2% 0;
+}
+
+.text h2 {
+    margin: 20px 0;
+    font-size: 26px;
+}
+
+.text p {
+    margin: 20px 0;
+    color: gray;
+}
+
+.text a {
+    color: #5586bc;
+}
 /* End Section II */
 
 /* END MAIN */
